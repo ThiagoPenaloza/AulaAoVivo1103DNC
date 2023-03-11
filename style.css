@@ -1,0 +1,39 @@
+body {
+    background-color: #F5F5F5;
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+
+main {
+    width: 40%;
+    text-align: center;
+    border:1px solid black;
+    margin-top: 150px;
+    border:none;
+}
+
+form {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+form input {
+    margin:15px 2px;
+    border-radius: 10px;
+    border:0px;
+    width: 60%;
+    height: 30px;
+    text-align: center;
+    font-size: 12pt;
+}
+form input[type="submit"] {
+    background-color: #A2A2A2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}

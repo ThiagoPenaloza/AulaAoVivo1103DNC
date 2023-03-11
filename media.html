@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Raleway:wght@400;600;700&display=swap"
+        rel="stylesheet">
+    <title>Painel do Professor</title>
+    </head>
+
+<body onload="calculaMedia()">
+    <main>
+        <h1>Painel do Professor</h1>
+        <form action="index.html" method="get">
+            <label>A média do Aluno é:</label>
+            <input type="text" id=media name="media">
+
+            <p>Portanto está <span id="status"></span> </p>
+            <input type="submit" value="Voltar">
+        </form>
+    </main>
+    <script src="mediaNotes.js"></script>
+</body>
+
+</html>
